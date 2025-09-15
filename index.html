@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+     <style>
+        @import url('index.css');
+        @import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Sansation:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap');
+ </style>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.0/css/all.min.css" integrity="sha512-DxV+EoADOkOygM4IR9yXP8Sb2qwgidEmeqAEmDKIOfPRQZOWbXCzLC6vjbZyy0vPisbH2SyW27+ddLVCN+OMzQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
+</head>
+   
+</head>
+<body>
+   <div id="container">
+    <div id="box">
+       <div id="search">
+        <input type="search" placeholder="search your task" id="task">
+       </div> 
+       <h1>All tasks</h1>
+       <div id="all_task">
+     <div id="suggestion">
+      <p>Add task using + icon</p>
+     </div>
+              </div>
+        </div>
+    <i class="fas fa-plus-circle" id="upload"></i>
+    <div id="contact_bg"  class="animate__animated animate__fadeIn"><center>
+        <div id="add_contact_box" class = "animate__animated animate__slideInDown">
+            <h1 id="c_heading">Add new Task</h1>
+            <form action="#">
+                <input type="text" placeholder="Enter task name" id="c_name">
+                <input type="text" placeholder="Enter task discription" id="c_num">
+                <button type="submit" id="add">Add</button>
+                <button type="button" id="close">Close</button>
+            </form>
+        </div>
+    </center>
+    </div>
+   </div>
+   <script src="index.js"></script>
+</body>
+</html>
